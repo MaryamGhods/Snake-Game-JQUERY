@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700,800,900|Barlow:300,400,500,600,700,800,900&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(66, 66, 66);
+}
+body.gameOver{
+    background: rgb(230, 9, 9);
+}
+.score-title{
+    font-family: "Barlow", sans-serif;
+    font-size: 36px;
+    color: white;
+    width: 100%;
+    height: 10vh;
+}
+.game{
+    background: rgb(14, 14, 14);
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.seed{
+    width: 20px;
+    height: 20px;
+    background: rgb(207, 22, 22);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+}
+.header{
+    background: rgb(35, 199, 3);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.tailer{
+    background: rgb(35, 199, 3);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
